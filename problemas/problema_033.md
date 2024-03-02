@@ -1,5 +1,4 @@
-# Build Heap (Problema 49)
-
+# Actualizar Heap (33)
 ## Descripción
 
 Un árbol binario se puede definir en un array de la siguiente forma:
@@ -13,7 +12,7 @@ Un árbol binario se puede definir en un array de la siguiente forma:
 
 Por ejemplo, el siguiente árbol en un array tendría la estructura indicada:  
 
-![Problema 60 ()](/img/arbol.svg)  
+![Problema 33 ()](/img/arbol.svg)  
 
 Un *Heap*, es un árbol binario parcialmente ordenado, que cumple las siguientes condiciones:  
 
@@ -23,17 +22,17 @@ Un *Heap*, es un árbol binario parcialmente ordenado, que cumple las siguientes
 
 Note que la estructura en *array* de un Heap es más eficiente que la de un árbol binario desbalanceado según lo explicado al inicio, ya que se asegura que todos los nodos están contiguos en memoria.
 
-Dado un *array* $L$, con $n>0$ elementos, construya un *Heap* de mínimos a apartir de $L$ utilizando el algoritmo *BuildHeap*. Se denotará al *array* resultante como $L^\prime$
+Dado un *array* $L$, con $n>0$ elementos que representan un *Heap*. Se quiere al *array* $L^\prime$ resultante de remover el mínimo de $L$
 
 ### Salida
 
 Debe imprimir los elementos del array $L^\prime$ separados por espacios
 
-Por ejemplo: Si $L= [8, 5, 20, 4, 6, 3, 10, 2, 5, 4, 1]$
+Por ejemplo: Si $L= [1, 2, 3, 4, 4, 20, 10, 8, 5, 5, 6]$
 
 Debería imprimir:
 
-> 1 2 3 4 4 20 10 8 5 5 6
+> 2 3 4 4 20 10 8 5 5 6
 
 ## Logisim
 
