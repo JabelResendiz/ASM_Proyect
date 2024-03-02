@@ -1,20 +1,21 @@
 # Actualizar Heap (33)
+
 ## Descripción
 
 Un árbol binario se puede definir en un array de la siguiente forma:
 
 - La raíz del árbol se encuentra en la posición $0$
 - Los hijos del nodo en la posición $i$ se encuentran en las posiciones:
-    - $2 \cdot i + 1$ izquierdo
-    - $2 \cdot i + 2$ derecho
+  - $2 \cdot i + 1$ izquierdo
+  - $2 \cdot i + 2$ derecho
 - El padre de un nodo en la posición $i$ se encuentra en la posisción $\lfloor\frac{i + 1}{n}\rfloor - 1$
 - Si ambos *hijos* de un nodo $X$ son vacíos ($-1$), entonces el nodo $X$ se dice que es una hoja, y no se considera que tenga hijos.
 
-Por ejemplo, el siguiente árbol en un array tendría la estructura indicada:  
+Por ejemplo, el siguiente árbol en un array tendría la estructura indicada:
 
-![Problema 33 ()](/img/arbol.svg)  
+![Problema 33 ()](/img/arbol.svg)
 
-Un *Heap*, es un árbol binario parcialmente ordenado, que cumple las siguientes condiciones:  
+Un *Heap*, es un árbol binario parcialmente ordenado, que cumple las siguientes condiciones:
 
 - Todos los niveles están llenos, excepto, quizás el último.
 - Los niveles se van llenando de izquierda a derecha.
@@ -28,7 +29,7 @@ Dado un *array* $L$, con $n>0$ elementos que representan un *Heap*. Se quiere al
 
 Debe imprimir los elementos del array $L^\prime$ separados por espacios
 
-Por ejemplo: Si $L= [1, 2, 3, 4, 4, 20, 10, 8, 5, 5, 6]$
+Por ejemplo: Si $L= `[1, 2, 3, 4, 4, 20, 10, 8, 5, 5, 6]`$
 
 Debería imprimir:
 
