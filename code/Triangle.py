@@ -12,6 +12,4 @@ def triangle_rectangle(a,b,c):
     if distance_ab == distance_ac + distance_bc or distance_ac== distance_ab+ distance_bc or distance_bc== distance_ab+distance_ac:
         return True
 
-
-
     return False

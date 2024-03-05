@@ -4,7 +4,7 @@
 # return Heap
 
 
-def Suprim_Heap(array):
+def suprim_Heap(array):
     
     vector= array[0:len(array)-1]
     vector[0]=array[len(array)-1]
@@ -31,5 +31,5 @@ def Suprim_Heap(array):
 vector= [1, 2, 3, 4, 4, 20, 10, 8, 5, 5, 6]
 while len(vector)>1:
     print(vector)
-    vector= Suprim_Heap(vector)
+    vector= suprim_Heap(vector)
 
