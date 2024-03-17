@@ -6,9 +6,10 @@
 
 def suprim_Heap(array):
     
-    vector= array[0:len(array)-1]
+    vector= array[0:len(array)-1] 
+    
     vector[0]=array[len(array)-1]
-
+    # llevar el ultimo elmento al primer elemento
     i=0
     j=1 if len(vector)> 1 else 0
     z=2 if len(vector)> 2 else i
