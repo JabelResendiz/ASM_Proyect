@@ -76,8 +76,6 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
       <a name="valign" val="base"/>
     </tool>
   </lib>
-  <lib desc="file#C:\Users\HP\Downloads\AC Plantilla CP 05.circ" name="7"/>
-  <lib desc="file#C:\Users\HP\Documents\Tree.circ" name="8"/>
   <main name="MEMORY"/>
   <options>
     <a name="gateUndefined" val="ignore"/>
